@@ -21,6 +21,7 @@ services:
     volumes:
       - drupal-data:/var/lib/postgresql/data
 
+# Make sure this works
 volumes:
    drupal-data:
    drupal-mods:
